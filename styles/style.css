@@ -1,0 +1,369 @@
+.open-sans-normal {
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* hero section */
+
+.hero {
+  width: 1320px;
+  height: 600px;
+  background: linear-gradient(180deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
+    url(/images/Banner\ Image.png);
+  margin: 0 auto;
+  margin-top: 50px;
+  margin-bottom: 120px;
+  border-radius: 16px;
+}
+
+.shared-subtitle {
+  font-weight: normal;
+  font-size: 32px;
+  line-height: 40px;
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+
+.shared-title {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 95px;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+
+.hero-container {
+  padding: 233px 344px 10px 344px;
+}
+
+/* 70% off start */
+.off-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 120px;
+}
+
+.image {
+  margin-top: 48px;
+  width: 800px;
+  height: 500px;
+}
+
+.off {
+  font-weight: 700;
+  font-size: 88px;
+  line-height: 107px;
+  text-align: center;
+  color: rgb(255, 0, 0);
+  margin-bottom: 48px;
+}
+
+.off-description {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  text-align: center;
+  color: rgb(255, 0, 0);
+  margin-bottom: 16px;
+}
+
+.off-sub {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: rgb(7, 2, 17);
+  text-align: center;
+}
+
+/* section3 */
+
+.section3 {
+  width: 1320px;
+  height: 600px;
+  background: linear-gradient(90deg, rgb(7, 2, 17), rgba(7, 2, 17, 0) 100%),
+    url(/images/Vectorrr.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  border-radius: 16px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* padding: 25px; */
+}
+.section3-title {
+  font-weight: 900;
+  font-size: 65px;
+  line-height: 88px;
+  letter-spacing: 11%;
+  text-align: left;
+  color: rgb(255, 255, 255);
+  margin-bottom: 24px;
+  margin-left: 128px;
+}
+
+.section3-description {
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 30px;
+  text-align: left;
+  color: rgba(255, 255, 255, 0.8);
+  margin-bottom: 48px;
+  margin-left: 128px;
+}
+
+.join-now {
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+  color: rgb(255, 255, 255);
+  text-decoration: none;
+  margin-left: 160px;
+}
+
+.section3-second img {
+  width: 345px;
+  height: 400px;
+  margin-right: 128px;
+}
+
+/* section 4 start   */
+
+.section4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 1320px;
+  height: 600px;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  border-radius: 16px;
+  background: linear-gradient(
+    180deg,
+    rgba(255, 0, 0, 0.1),
+    rgba(255, 0, 0, 0) 100%
+  );
+}
+
+span {
+  color: rgb(255, 0, 0);
+}
+
+.common-p {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 56px;
+  text-align: center;
+}
+
+.third-p {
+  margin-bottom: 48px;
+}
+
+.btn {
+  padding: 16px 32px;
+  border-radius: 8px;
+  background: rgb(255, 0, 0);
+}
+
+.btn a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 24px;
+}
+
+/* section 5 start */
+
+.section5 {
+  width: 1320px;
+  height: 463px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 120px;
+}
+
+.first-div h5 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgb(255, 0, 0);
+  margin-bottom: 16px;
+}
+
+.first-div h2 {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 60px;
+  color: rgb(7, 2, 17);
+  margin-bottom: 22px;
+}
+
+.first-div p {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(7, 2, 17, 0.6);
+}
+
+.second-div img {
+  width: 462px;
+  height: 462px;
+  box-sizing: border-box;
+  border: 15px solid rgb(255, 0, 0);
+  padding: 40px;
+  border-radius: 50%;
+}
+
+.third-div h1 {
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 58px;
+  color: rgb(255, 0, 0);
+  margin-bottom: 16px;
+}
+
+.third-div p {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(7, 2, 17, 0.6);
+  margin-bottom: 43px;
+}
+
+.inside-div img {
+  padding-top: 75px;
+  width: 140px;
+  height: 140px;
+}
+
+/* section 6 start */
+
+.section6 {
+  width: 1068px;
+  height: 260px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
+
+.section6 h5 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgb(7, 2, 17);
+  text-align: center;
+  margin-bottom: 55px;
+}
+
+.section6 h1 {
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 1px;
+  color: rgb(7, 2, 17);
+  text-align: center;
+  margin-bottom: 70px;
+}
+
+.section6 h1 span {
+  color: rgb(255, 0, 0);
+}
+
+.section6 p {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(7, 2, 17, 0.6);
+  text-align: center;
+}
+
+/* section 7 start */
+
+.section7 {
+  width: 1320px;
+  height: 663px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.section7-container {
+    background: url(/images/Rectangle\ 2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1320px;
+    height: 229px;
+    margin: 0 auto;
+    margin-top: -200px;
+    border-radius: 16px;
+    margin-bottom: 120px;
+}
+
+.section7-div img{
+    margin-left: 60px;
+    width: 674px;
+    height: 577px;
+}
+
+.section7-div2 img{
+    width: 100%;
+    height: auto;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+/* section8 start */
+
+
+.section8{
+    width: 1320px;
+    height: 1163px;
+    margin: 0 auto;
+}
+
+.section8 h5{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 29px;
+    color: rgb(255, 0, 0);
+    margin-bottom: 16px;
+}
+
+.section8 h1{
+    font-weight: 900;
+    font-size: 48px;
+    line-height: 60px;
+    color: rgb(7, 2, 17);
+    margin-bottom: 22px;
+}
+
+.section8 p{
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 32px;
+    color: rgba(7, 2, 17, 0.6);
+    margin-bottom: 48px;
+}
+
+.image-container{
+    display: flex;
+}
