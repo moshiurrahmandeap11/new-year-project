@@ -306,64 +306,189 @@ span {
 }
 
 .section7-container {
-    background: url(/images/Rectangle\ 2.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 1320px;
-    height: 229px;
-    margin: 0 auto;
-    margin-top: -200px;
-    border-radius: 16px;
-    margin-bottom: 120px;
+  background: url(/images/Rectangle\ 2.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 1320px;
+  height: 229px;
+  margin: 0 auto;
+  margin-top: -200px;
+  border-radius: 16px;
+  margin-bottom: 120px;
 }
 
-.section7-div img{
-    margin-left: 60px;
-    width: 674px;
-    height: 577px;
+.section7-div img {
+  margin-left: 60px;
+  width: 674px;
+  height: 577px;
 }
 
-.section7-div2 img{
-    width: 100%;
-    height: auto;
-    margin-right: 50px;
-    margin-top: 50px;
+.section7-div2 img {
+  width: 100%;
+  height: auto;
+  margin-right: 50px;
+  margin-top: 50px;
 }
 
 /* section8 start */
 
-
-.section8{
-    width: 1320px;
-    height: 1163px;
-    margin: 0 auto;
+.section8 {
+  width: 1320px;
+  height: 1163px;
+  margin: 0 auto;
 }
 
-.section8 h5{
-    font-weight: 500;
-    font-size: 24px;
-    line-height: 29px;
-    color: rgb(255, 0, 0);
-    margin-bottom: 16px;
+.section8 h5 {
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: rgb(255, 0, 0);
+  margin-bottom: 16px;
 }
 
-.section8 h1{
-    font-weight: 900;
-    font-size: 48px;
-    line-height: 60px;
-    color: rgb(7, 2, 17);
-    margin-bottom: 22px;
+.section8 h1 {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 60px;
+  color: rgb(7, 2, 17);
+  margin-bottom: 22px;
 }
 
-.section8 p{
-    font-weight: normal;
-    font-size: 20px;
-    line-height: 32px;
-    color: rgba(7, 2, 17, 0.6);
-    margin-bottom: 48px;
+.section8 p {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  color: rgba(7, 2, 17, 0.6);
+  margin-bottom: 48px;
 }
 
-.image-container{
-    display: flex;
+.image-container {
+  display: flex;
+}
+
+/* mail box start */
+
+.mailbox {
+  width: 1320px;
+  height: 616px;
+  border-radius: 16px;
+  background: rgba(255, 0, 0, 0.05);
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 120px;
+}
+
+.mb-img-container {
+  padding: 80px 212px 48px 212px;
+  margin: 0 auto;
+  margin-top: -150px;
+}
+
+.mb-img-container .mb-img {
+  text-align: center;
+}
+.mb-img {
+  margin-bottom: 46px;
+}
+
+.mailbox-text h3 {
+  font-weight: 900;
+  font-size: 48px;
+  line-height: 60px;
+  text-align: center;
+  color: rgb(7, 2, 17);
+  margin-bottom: 22px;
+}
+
+.mailbox-text p {
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  color: rgba(7, 2, 17, 0.6);
+}
+
+.mail-form input[type="text"] {
+  padding: 25px 200px 25px 30px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 22px;
+  color: rgba(7, 2, 17, 0.3);
+}
+
+.mail-form input {
+  color: rgb(255, 255, 255);
+  outline: none;
+  border: none;
+  border-radius: 50px 0px 0px 50px;
+}
+
+.mail-form a {
+  border-radius: 0px 50px 50px 0px;
+  background: rgb(255, 0, 0);
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 24px;
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  padding: 20px 56px;
+}
+
+
+/* mail box end here */
+
+/* footer start */
+
+footer{
+  width: 1600px;
+  height: 609px;
+  background: rgb(7, 2, 17);
+  margin: 0 auto;
+}
+
+.footer-address{
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-address p{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+  color: rgb(255, 255, 255);
+  padding: 120px 275px 98px 140px;
+}
+
+.social-icon{
+  text-align: center;
+}
+
+.social-icon img{
+  padding-left: 25px;
+}
+
+.footer-text{
+  display: flex;
+  justify-content: space-between;
+  /* gap: 600px; */
+}
+
+.footer-text p{
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 40px;
+  color: rgb(255, 255, 255);
+  margin-top: 105px;
+}
+
+.all p{
+  margin-left: 140px;
+}
+
+.un p{
+  margin-right: 140px;
 }
